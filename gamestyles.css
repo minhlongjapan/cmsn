@@ -3,10 +3,13 @@ body {
   font-size: 15px;
   font-weight: bold;
   font-family: Arial, sans-serif;
+  background-image: url(MyAvatar6.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #playe {
-  margin-top: -38px;
+  margin-top: -45px;
   margin-left: -50px;
 }
 
@@ -19,7 +22,7 @@ main {
   margin: 16px auto;
   display: flex;
   justify-content: space-around;
-  margin-left: 615px;
+  margin-left: 580px;
   margin-top: 400px;
 }
 
@@ -54,7 +57,7 @@ main {
     text-align: center;
     color: #b64b4b;
     user-select: none;
-    margin-left: 640px;
+    margin-left: 596px;
     margin-top: 0;
 }
 
