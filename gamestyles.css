@@ -5,11 +5,11 @@ body {
   font-family: Arial, sans-serif;
   background-image: url(MyAvatar6.jpg);
   background-size: 100%;
-/*   background-repeat: no-repeat; */
+  /* background-repeat: no-repeat; */
 }
 
 #playe {
-  margin-top: -45px;
+  margin-top: -50px;
   margin-left: -50px;
 }
 
@@ -23,7 +23,7 @@ main {
   display: flex;
   justify-content: space-around;
   margin-left: 580px;
-  margin-top: 400px;
+  margin-top: 576px;
 }
 
 .panel img {
