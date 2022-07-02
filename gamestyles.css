@@ -13,6 +13,38 @@ body {
   margin-left: -50px;
 }
 
+/*動画表示のモーダルの余白を変更したい場合*/
+.modaal-video .modaal-inner-wrapper{
+	padding:0;
+}
+
+/*モーダルのボタンの色を変更したい場合*/
+.modaal-close:after, 
+.modaal-close:before{
+	background:#ccc;	
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before{
+	background:#666;
+}
+
+.modaal-video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  box-shadow: 0 0 10pxrgba(0,0,0,.3);
+  background: #2c23a2;
+  max-width: 1331px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -120px;
+}
+
 main {
   width: 246px;
   background: #ecf0f1;
