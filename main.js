@@ -114,17 +114,17 @@
 
 
 //初回のみモーダルをすぐ出す判定。flagがモーダル表示のstart_open後に代入され       
-var access = $.cookie('access')
-if(!access){
-    flag = true;
-    $.cookie('access', false);
-}else{
-    flag = false	
-}
+// var access = $.cookie('access')
+// if(!access){
+//     flag = true;
+//     $.cookie('access', false);
+// }else{
+//     flag = false;
+// }
 
 //モーダル表示
 $(".video-open").modaal({
-//start_open:flag, // ページロード時に表示するか
+// start_open:flag, // ページロード時に表示するか
 overlay_close:true,//モーダル背景クリック時に閉じるか
 type: 'video',
 background: '#28BFE7', // 背景色
