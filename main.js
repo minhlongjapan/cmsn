@@ -124,7 +124,7 @@ if(!access){
 
 //モーダル表示
 $(".video-open").modaal({
-start_open:flag, // ページロード時に表示するか
+//start_open:flag, // ページロード時に表示するか
 overlay_close:true,//モーダル背景クリック時に閉じるか
 type: 'video',
 background: '#28BFE7', // 背景色
