@@ -7,8 +7,7 @@
         clickberry-extension-standalone
         clickberry-extension
         clickberry-extension-standalone
-    "
->
+    ">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport">
@@ -37,15 +36,10 @@
         <link
             href="https://fonts.googleapis.com/css?family=Wendy+One"
             rel="stylesheet"
-            type="text/css"
-        />
+            type="text/css"/>
         <div class="pyro">
-            <div class="before">
-                
-            </div>
-            <div class="after">
-
-            </div>
+            <div class="before"></div>
+            <div class="after"></div>
             <div class="container">
                 <div class="balloon">
                     <div><span>H</span></div>
@@ -61,40 +55,34 @@
                     <div><span>D</span></div>
                     <div><span>A</span></div>
                     <div><span>Y</span></div>
-                </div>
-
-                
+                </div>                
                 <div class="avata">
                     <img src="MyAvatar.jpg" alt="" class="avata__img" onclick="showMessage1()" />
                     <h1 onclick="showMessage1()" class="avata__title">Bích Ngọc <br> 誕生日おめでとう❣</h1>
-                </div>
-                
+                </div>                
                 <main></main>
                 <div id="spin" onclick="showMessage2()">Nhận quà</div>
-                <div>
-                    
-                    <audio id="playe" autoplay loop style="width:260px">
-                        <source src="./music.mp3" onclick="showMessage2" type="audio/mp3">
+                <div>                    
+                    <audio id="playe"  autoplay loop style="width:260px">
+                        <source src="./music.mp3" type="audio/mp3">
                     </audio>
                 </div>
                 <div>
+                    <img onclick="showMessage1()" src="Myavatar5.jpg" class="image5"/><br/>
                     <h>
-                        <a href="video.mp4" class="video-open"
-                        style="font-size:30px; color: white">Click vao day</a>
+                        <a href="video.mp4" class="video-open">❤️️❤️️❤️️Message❤️️❤️️❤️️</a>
                     </h>
-                </div>
-                
-                
+                </div>  
             </div>
         </div>
-
-        
 
         <script>
             if (document.location.search.match(/type=embed/gi)) {
                 window.parent.postMessage("resize", "*");
             }
             function showMessage1() {
+                var audio = document.getElementById("playe");
+                audio.play();
                 swal({
                     title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
                     text: "Chúc em sinh nhật vui vẻ, luôn xinh tươi, khoẻ mạnh, hạnh phúc, gặp nhiều may mắn và thành công trong tuổi mới nhé!",
@@ -103,12 +91,13 @@
                     },
                 });
             }
-            function showMessage2() {
-                // var audio = document.getElementById("playe");
-                // audio.play();
+
+            function showMessage2() {   
+                var audio = document.getElementById("playe");
+                audio.play();             
                 swal({
-                    title: "Phổ biến luật chơi", // Tiêu đề của popup
-                    text: "Đây là những món quà mà anh Long muốn dành tặng riêng cho em 😜\nLuật chơi rất đơn giản, chỉ cần chọn được 3 hình quà tặng giống nhau thì sẽ được món quà đó 😅 \n Sẽ có 5 món quà \n1) Trà sữa full topping\n2) 1 bó hoa tươi thắm \n 3) Vé xem phim đặc sắc \n 4) Thú nhồi bông hình con hổ đáng yêu \n 5) [Đặc biệt] 1 chuyến đi du lịch Nhật Bản (Không bị bỏ rơi)😜😜😜\n Chuc em may man nhe!",
+                    title: "Đây là những món quà 🎁🎁 mà anh Long muốn dành tặng riêng cho em 😜", // Tiêu đề của popup
+                    text: "Luật chơi rất đơn giản, chỉ cần chọn được 3 hình quà tặng giống nhau, rồi chụp màn hình lại gửi cho anh Long thì sẽ được món quà đó 😅 \n Sẽ có 5 món quà \n1) Trà sữa trân châu full topping 🧋🧋🧋\n2) 1 bó hoa tươi thắm 🌹🌹🌹\n 3) Vé xem phim đặc sắc 🎫🎫🎫\n 4) Thú nhồi bông hình con hổ đáng yêu 🐯🐯🐯 \n 5) [Đặc biệt] 1 chuyến đi du lịch Nhật Bản 🇯🇵 🛫 🇯🇵 (Không bị bỏ rơi)😜😜😜\n Chúc em may mắn nhé!🥳🥳🥳\n Good luck for you! 🤎🤎🤎",
                     button: {
                         text: "❤️️",
                     },
