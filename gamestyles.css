@@ -13,12 +13,39 @@ body {
   margin-left: -50px;
 }
 
-/*動画表示のモーダルの余白を変更したい場合*/
+.image5 {
+  width: 240px;
+  height: 150px;
+  border-radius: 12px;
+  margin-left: -65px;
+  margin-top: -200px;
+  cursor: pointer;
+}
+
+.video-open {
+  font-size: 30px; 
+  color: white; 
+  margin-left: -75px; 
+  text-decoration: none; 
+  box-shadow: 0 4px 0 #2880b9;
+  border-radius: 18px;
+  cursor: pointer;
+  width: 237px;
+  height: 32px;
+  background: #3498db;
+  box-shadow: 0 4px 0 #2880b9;
+  border-radius: 18px;
+  line-height: 36px;
+  text-align: center;
+  user-select: none;
+}
+
+/*å‹•ç”»è¡¨ç¤ºã®ãƒ¢ãƒ¼ãƒ€ãƒ«ã®ä½™ç™½ã‚’å¤‰æ›´ã—ãŸã„å ´åˆ*/
 .modaal-video .modaal-inner-wrapper{
 	padding:0;
 }
 
-/*モーダルのボタンの色を変更したい場合*/
+/*ãƒ¢ãƒ¼ãƒ€ãƒ«ã®ãƒœã‚¿ãƒ³ã®è‰²ã‚’å¤‰æ›´ã—ãŸã„å ´åˆ*/
 .modaal-close:after, 
 .modaal-close:before{
 	background:#ccc;	
@@ -45,13 +72,15 @@ body {
   margin-top: -120px;
 }
 
+
 main {
-  width: 246px;
+  width: 263px;
+  height: 115px;
   background: #ecf0f1;
   padding: 15px;
   border: 4px solid #fff;
   border-radius: 12px;
-  margin: 16px auto;
+  margin: 13px auto;
   display: flex;
   justify-content: space-around;
   margin-left: 580px;
@@ -59,14 +88,14 @@ main {
 }
 
 .panel img {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 4px;
+  width: 90px;
+  height: 92px;
+  margin-bottom: 8px;
 }
 
 .stop {
   cursor: pointer;
-  width: 65px;
+  width: 70px;
   height: 24px;
   background: #ef454a;
   box-shadow: 0 4px 0 #d1483e;
@@ -76,21 +105,24 @@ main {
   font-size: 14px;
   color: #fff;
   user-select: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #spin {
     cursor: pointer;
-    width: 237px;
-    height: 32px;
+    width: 210px;
+    height: 40px;
     background: #3498db;
     box-shadow: 0 4px 0 #2880b9;
     border-radius: 18px;
-    line-height: 36px;
+    line-height: 44px;
     text-align: center;
-    color: #b64b4b;
+    color: #fff;
     user-select: none;
-    margin-left: 596px;
+    margin-left: 626px;
     margin-top: 0;
+    font-size: 30px;
 }
 
 .unmatched {
