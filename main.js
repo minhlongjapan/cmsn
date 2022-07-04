@@ -41,8 +41,17 @@
         'japan.png',
         'tea.png',
         'ticket.png',
+        'japan.png',
         'tiger.png',
         'rose.png',
+        'japan.png',
+        'japan.png',
+        'tea.png',
+        'ticket.png',
+        'japan.png',
+        'tea.png',
+        'ticket.png',
+        'japan.png',
       ];
       return images[Math.floor(Math.random() * images.length)]; //ket qua tra ve cua ham 'getRamdomImages'
     }
