@@ -38,26 +38,31 @@
 
     getRandomImage() { //tao ham random image   (1)
       const images = [
+        'tiger.png',
         'japan.png',
         'tea.png',
         'ticket.png',
+         'rose.png',
         'japan.png',
         'ticket.png',
+        'rose.png',
         'japan.png',
         'ticket.png',
-        'japan.png',
-        'ticket.png',
+         'rose.png',
         'japan.png',
         'tiger.png',
         'rose.png',
         'japan.png',
         'japan.png',
+        'tiger.png',
         'tea.png',
         'ticket.png',
         'japan.png',
         'tea.png',
         'ticket.png',
+         'rose.png',
         'japan.png',
+        'tiger.png',
       ];
       return images[Math.floor(Math.random() * images.length)]; //ket qua tra ve cua ham 'getRamdomImages'
     }
