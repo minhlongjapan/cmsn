@@ -162,7 +162,7 @@ after_close:function(){// モーダルが閉じた後に行う動作
 
 function H1() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Chúc em luôn thành đạt trong cuộc sống nhé!",
       button: {
           text: "❤️️",
@@ -171,7 +171,7 @@ function H1() {
 }
 function A1() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Chúc em có thật nhiều điều may mắn và hạnh phúc trong thời gian sắp tới nhé!",
       button: {
           text: "❤️️",
@@ -180,7 +180,7 @@ function A1() {
 }
 function P1() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Hãy sống thật hết mình với những đam mê để có một tuổi mới thật ý nghĩa nhé em!",
       button: {
           text: "❤️️",
@@ -189,7 +189,7 @@ function P1() {
 }
 function P2() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Chúc em có một tương lai thật tươi sáng cùng với những điều tốt đẹp sắp đến nhé",
       button: {
           text: "❤️️",
@@ -198,7 +198,7 @@ function P2() {
 }
 function Y1() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Vạn vật bỗng trở nên tươi đẹp và tràn đầy sức sống một cách thật kì lạ! Vì đây chính là ngày sinh nhật của em đấy!",
       button: {
           text: "❤️️",
@@ -207,7 +207,7 @@ function Y1() {
 }
 function B() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Hôm nay là một ngày tuyệt vời, ngày em đến với thế giới này trong sự chào đón và vui mừng của mọi người! \n Sinh nhật vui vẻ em nhé!",
       button: {
           text: "❤️️",
@@ -216,7 +216,7 @@ function B() {
 }
 function I() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Chúc mọi niềm vui sẽ đến với em để xua tan đi phiền muộn.",
       button: {
           text: "❤️️",
@@ -225,7 +225,7 @@ function I() {
 }
 function R() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Chúc em sinh nhật tràn ngập niềm vui và sự yêu thương!",
       button: {
           text: "❤️️",
@@ -234,7 +234,7 @@ function R() {
 }
 function T() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Chúc em sức khỏe dồi dào, thu hoạch thêm nhiều thành công rực rỡ!",
       button: {
           text: "❤️️",
@@ -243,7 +243,7 @@ function T() {
 }
 function H2() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Hãy làm cho ngày hôm nay trở thành một ngày sinh nhật thật đáng nhớ, chứa đầy những kỉ niệm, niềm vui và tiếng cười nhé!",
       button: {
           text: "❤️️",
@@ -252,7 +252,7 @@ function H2() {
 }
 function D() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Chúc em có một ngày sinh nhật ý nghĩa! Đây sẽ là một ngày tuyệt vời cùng với những điều bất ngờ nhất và đặc biệt nhất của riêng em!",
       button: {
           text: "❤️️",
@@ -261,7 +261,7 @@ function D() {
 }
 function A2() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Sinh nhật chỉ kéo dài vỏn vẹn trong 24 giờ. Vậy hãy cố gắng cảm nhận nó một cách trọn vẹn nhất em nhé!",
       button: {
           text: "❤️️",
@@ -270,7 +270,7 @@ function A2() {
 }
 function Y2() {                
   swal({
-      title: "Chúc Mừng Sinh Nhật Bích Ngọc", // Tiêu đề của popup
+      title: "Chúc Mừng Sinh Nhật Name", // Tiêu đề của popup
       text: "Chúc em một tuổi mới thật đẹp, thật tuyệt vời với những điều mới lạ và thú vị trong cuộc sống!",
       button: {
           text: "❤️️",
